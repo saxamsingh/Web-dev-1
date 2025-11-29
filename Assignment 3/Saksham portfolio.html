@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saksham Portfolio</title>
+    <link rel="stylesheet" href="assignment 3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1>Saksham singh</h1>
+          <p class="sub">B.Tech CSE (AI & ML)</p>
+        </div>
+
+        <nav id="main-nav" class="nav">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h2>Hello, I am <span class="accent">Saksham</span></h2>
+            <h3 id="col">Tech Enthusiast, Creator & Learner</h3>
+            <p>
+              A passionate engineering student exploring technology, music,
+              football, and content creation.
+            </p>
+            <br />
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects">See Projects</a>
+              <a class="btn outline" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img src="PR_PHOTO.jpg" alt="My Profile Photo" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2 id="abt">About Me</h2>
+          <br />
+
+          <div class="about-grid">
+            <div class="about-card" id="about-card">
+              <p>
+                Hello! I'm Saksham, a first-year engineering student at KR
+                Mangalam University. I am naturally curious and always exploring
+                new ideas.
+              </p>
+              <p>
+                My interests include technology, football, Formula 1, fashion,
+                music, DJing, philosophy, and content creation. I'm currently
+                learning Python, HTML, and CSS to build my tech foundation.
+              </p>
+            </div>
+
+            <aside class="about-quick" id="about-quick">
+              <ul>
+                <li><strong>Location:</strong> India</li>
+                <li><strong>Education:</strong> B.Tech CSE (AI & ML)</li>
+                <li><strong>Interests:</strong> Tech, Football, Music, F1</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <br />
+
+          <div class="grid projects-grid">
+            <article class="card project-card">
+              <h4>Portfolio Website</h4>
+              <p>
+                A simple portfolio website built using HTML and CSS to showcase
+                my skills and interests.
+              </p>
+              <p class="tag">HTML • CSS</p>
+            </article>
+
+            <article class="card project-card">
+              <h4>Basic Python Programs</h4>
+              <p>
+                A collection of beginner Python programs as part of my learning
+                journey.
+              </p>
+              <p class="tag">Python</p>
+            </article>
+
+            <article class="card project-card">
+              <h4>DJ Mix Practice Set</h4>
+              <p>
+                A curated mix inspired by Skrillex, combining EDM elements.
+              </p>
+              <p class="tag">Music • Creativity</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <br />
+
+          <div class="grid skills-grid">
+            <div class="card skill-card"><h5>HTML</h5><p>Beginner</p></div>
+            <div class="card skill-card"><h5>CSS</h5><p>Beginner</p></div>
+            <div class="card skill-card"><h5>Python</h5><p>Intermediate</p></div>
+            <div class="card skill-card"><h5>Drumming</h5><p>Intermediate</p></div>
+            <div class="card skill-card"><h5>Content Creation</h5><p>Beginner</p></div>
+            <div class="card skill-card"><h5>Music Mixing</h5><p>Beginner</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contact</h2>
+
+          <form class="contact-form">
+            <label>Name</label>
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="Write Name Here"
+            />
+
+            <label>Email</label>
+            <input
+              type="email"
+              id="mail"
+              required
+              placeholder="Write E-mail Here"
+            />
+
+            <label>Message</label>
+            <textarea
+              rows="5"
+              id="message"
+              required
+              placeholder="Write Message Here"
+            ></textarea>
+
+            <button class="btn primary" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Saksham singh — All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
